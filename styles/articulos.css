@@ -1,0 +1,18 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.hola{
+    z-index: -1;
+}
+
+h1{
+    color: white;
+}
+
+.item1{
+    z-index: 999;
+}
