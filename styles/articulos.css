@@ -20,19 +20,6 @@ body{
     color: #fff;
 }
 
-#hero h1 {
-    text-align: center;
-    color: wheat;
-    z-index: 99;
-}
-
-.content{
-    max-width: 40rem;
-    padding-left: 1rem;
-    margin: auto;
-    text-align: center;
-}
-
 .capa{
     position: absolute;
     top: 0;
@@ -46,30 +33,53 @@ body{
 .capa lottie-player{
     min-width: 100%;
     min-height: 100%;    
+} 
+
+
+
+
+.linea_derecha{
+    width: 100px;
+    height: 3px;
+    background-color: wheat;
+    margin-bottom: 20px;
 }
 
 
-.content{
-    z-index: 2;
+
+.items h2{
+    font-size:1.5rem;
 }
 
-.content h1{
-    font-size: 50px;
-    margin-bottom: 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.items{
+    width: 440px;
 }
 
-
-.content p{
-    font-size: 1.5rem;
-    display: block;
-    padding-bottom: 2rem;
+.conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.btn{
-    background-color:#c44569 ;
-    color: #fff;
-    font-size: 1.2rem;
-    padding: 1rem 2rem;
-    text-decoration: none;
+.carousel{
+    min-width: 800px;
+    margin-right: 350px;
+}
+
+.carousel .carousel-item{
+    z-index: 1;
+    min-width: 600px;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    user-select: none;
+   
+    padding-bottom: 50px;
+}
+
+.items a{
+    margin-top: 10px;
+    width: 300px;
 }
